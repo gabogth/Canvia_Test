@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PT_CANVIA.Core\PT_CANVIA.Core.csproj" />
+    <ProjectReference Include="..\PT_CANVIA.Infraestructura\PT_CANVIA.Infraestructura.csproj" />
+  </ItemGroup>
+
+</Project>

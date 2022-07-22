@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Api\\PT_CANVIA.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Api\\PT_CANVIA.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Api\\PT_CANVIA.Api.csproj",
+        "projectName": "PT_CANVIA.Api",
+        "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Api\\PT_CANVIA.Api.csproj",
+        "packagesPath": "C:\\Users\\gabriel.rodriguez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Aplicacion\\PT_CANVIA.Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Aplicacion\\PT_CANVIA.Aplicacion.csproj"
+              },
+              "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj": {
+                "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.7.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Aplicacion\\PT_CANVIA.Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Aplicacion\\PT_CANVIA.Aplicacion.csproj",
+        "projectName": "PT_CANVIA.Aplicacion",
+        "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Aplicacion\\PT_CANVIA.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\gabriel.rodriguez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Aplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj": {
+                "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj"
+              },
+              "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Infraestructura\\PT_CANVIA.Infraestructura.csproj": {
+                "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Infraestructura\\PT_CANVIA.Infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj",
+        "projectName": "PT_CANVIA.Core",
+        "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj",
+        "packagesPath": "C:\\Users\\gabriel.rodriguez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Infraestructura\\PT_CANVIA.Infraestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Infraestructura\\PT_CANVIA.Infraestructura.csproj",
+        "projectName": "PT_CANVIA.Infraestructura",
+        "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Infraestructura\\PT_CANVIA.Infraestructura.csproj",
+        "packagesPath": "C:\\Users\\gabriel.rodriguez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Infraestructura\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj": {
+                "projectPath": "C:\\Users\\gabriel.rodriguez\\source\\repos\\PT_CANVIA\\PT_CANVIA.Core\\PT_CANVIA.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
